@@ -1,0 +1,21 @@
+{
+  "name": "myteksi-utils",
+  "version": "0.0.1",
+  "description": "Common functions ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha specs/ -R nyan -u bdd -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fadrizul/myteksi-utils.git"
+  },
+  "author": "Fadrizul Hasani",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/fadrizul/myteksi-utils/issues"
+  },
+  "dependencies": {
+    "should": ">= 0.0.0"
+  }
+}
