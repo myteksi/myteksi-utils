@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/fadrizul/myteksi-utils.git"
+    "url": "git://github.com/myteksi/myteksi-utils.git"
   },
   "author": "Fadrizul Hasani",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/fadrizul/myteksi-utils/issues"
+    "url": "https://github.com/myteksi/myteksi-utils/issues"
   },
   "dependencies": {
     "should": ">= 0.0.0"
