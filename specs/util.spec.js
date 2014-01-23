@@ -23,4 +23,24 @@ describe('Util', function () {
       actual.substr(0, 1).should.eql("H")
     })
   })
+
+  describe('Generate Random Character', function () {
+    describe('When passing in 15 as length and type is number', function () {
+      it('should return a random integer with 15 digits', function (done) {
+        var actual = util.generateRandomChar(15, 'number')
+        actual.should.be.a.Number
+        should.equal(actual.toString().length, 15)
+        done()
+      })
+    })
+
+    describe('When not passing in any parameters', function () {
+      it('should return a random string with 32 characters', function (done) {
+        var actual = util.generateRandomChar()
+        actual.should.be.a.String
+        should.equal(actual.length, 32)
+        done()
+      })
+    })
+  })
 })
